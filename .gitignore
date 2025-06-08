@@ -1,0 +1,17 @@
+# Ignore backend node_modules and .env
+backend/node_modules/
+backend/.env
+
+# Ignore frontend node_modules if added later
+frontend/node_modules/
+
+# Ignore system/mac files
+.DS_Store
+Thumbs.db
+
+
+# Ignore node_modules and sensitive files
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+.env
